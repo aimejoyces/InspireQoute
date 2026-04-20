@@ -1,4 +1,5 @@
-# Welcome to your Expo app (THE INSPIRE QOUTE)
+# Welcome to your Expo app 
+# (THE INSPIRE QOUTE)
 
 INSPIRE is a React Native application for finding quotes, personal reflection, and learning new words and it is built using Expo and provides a simple user experience for managing inspirational content.
 
