@@ -8,3 +8,11 @@ export interface Quote {
 export interface QuoteApiResponse {
   quotes: Quote[];
 }
+
+export interface QuoteItem {
+  id: string;
+  body: string;
+  author: string;
+  isFavorite?: boolean;
+  isUserAdded?: boolean;
+}

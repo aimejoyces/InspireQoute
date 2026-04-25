@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { HomeScreen } from './src/screens/HomeScreen';
 import { GetStartedScreen } from './src/screens/GetStartedScreen';
+import { HomeScreen } from './src/screens/HomeScreen';
 
 export default function App() {
   const [isStarted, setIsStarted] = useState(false);
@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      <HomeScreen />
+      <HomeScreen onLogout={() => setIsStarted(false)} />
     </GestureHandlerRootView>
   );
 }
